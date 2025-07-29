@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduConsultancy Landing Page - Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    body { background: #fff; color: #222; }
+    .doc-container { max-width: 900px; margin: 40px auto; padding: 2rem; background: #f8fafc; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.04);}
+    h1, h2, h3 { color: #0A2647; }
+    pre, code { background: #f5f5f5; padding: 2px 6px; border-radius: 4px; }
+    ul { margin-bottom: 1.5em; }
+    .section { margin-bottom: 2.5em; }
+  </style>
+</head>
+<body>
+  <div class="doc-container">
+    <h1>EduConsultancy Landing Page - Documentation</h1>
+    <p>
+      This guide explains the structure, customization, and deployment of the EduConsultancy landing page template.
+    </p>
+
+    <div class="section">
+      <h2>1. Folder Structure</h2>
+      <pre>
+index.html
+contact.php
+README.txt
+assets/
+  css/
+    style.css
+  fonts/
+  images/
+    founder.jpg
+    testimonial1.jpg
+    testimonial2.jpg
+    testimonial3.jpg
+  js/
+    main.js
+  resources/
+Documentation/
+  documentation.html
+      </pre>
+      <ul>
+        <li><strong>index.html</strong>: Main landing page file</li>
+        <li><strong>contact.php</strong>: Example backend handler for contact form</li>
+        <li><strong>assets/</strong>: Contains CSS, fonts, images, JS, and downloadable resources</li>
+        <li><strong>Documentation/documentation.html</strong>: This documentation file</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. Customization</h2>
+      <ul>
+        <li>
+          <strong>Text & Content:</strong> Edit <code>index.html</code> to update all visible text, headings, and testimonials.
+        </li>
+        <li>
+          <strong>Images:</strong> Replace images in <code>assets/images/</code> with your own. Update <code>src</code> attributes in <code>index.html</code> if filenames change.
+        </li>
+        <li>
+          <strong>Styles:</strong> Modify <code>assets/css/style.css</code> for colors, fonts, and layout.
+        </li>
+        <li>
+          <strong>Resources:</strong> Add your downloadable files to <code>assets/resources/</code> and update links in <code>index.html</code>.
+        </li>
+        <li>
+          <strong>Social Links:</strong> Update URLs in the footer of <code>index.html</code>.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. Forms & Backend</h2>
+      <ul>
+        <li>
+          The contact form submits to <code>contact.php</code>. Implement your own backend logic to process and send emails.
+        </li>
+        <li>
+          For newsletter or resource downloads, connect to your preferred email marketing or backend service.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Deployment</h2>
+      <ul>
+        <li>
+          Zip the entire project folder for distribution or upload.
+        </li>
+        <li>
+          Upload all files and folders to your web server, keeping the structure unchanged.
+        </li>
+        <li>
+          Ensure <code>index.html</code> is in the root directory.
+        </li>
+        <li>
+          Place downloadable resources in <code>assets/resources/</code> if needed.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Credits</h2>
+      <ul>
+        <li>Fonts: Google Fonts (<a href="https://fonts.google.com/" target="_blank">Inter</a>, <a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank">Playfair Display</a>)</li>
+        <li>Icons: <a href="https://feathericons.com/" target="_blank">Feather Icons</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. License</h2>
+      <p>
+        This template is free for personal and commercial use with attribution. You may modify and use it for your consultancy.
+      </p>
+    </div>
+  </div>
+</body>
